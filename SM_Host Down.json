@@ -1,0 +1,1 @@
+{"ed5cadb1-d383-4434-a419-e1f8fe028787":{"resourceKinds":[],"modificationTime":1555657768982,"name":"Host Down","formula":"sum(${this, attribute=summary|total_number_hosts})-sum(${this, attribute=summary|number_running_hosts})","description":""}}
